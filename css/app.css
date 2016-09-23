@@ -93,7 +93,11 @@ nav {
     overflow: hidden;
 }
 
-
+#menu ul.tab li {
+	background: red;
+	height: 50px;
+	width: 50px
+}
 
 #menu ul.tab-content {
 	height: 100%;
@@ -174,12 +178,12 @@ nav {
 }
 
 /*span icon*/
-span.play {
+.play {
 	background: url('../img/play-b.png') no-repeat center;
 	background-size: 70%;
 }
 
-span.pause {
+.pause {
 	background: url('../img/pause-b.png') no-repeat center;
 	background-size: 70%;
 }
